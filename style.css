@@ -1,3 +1,8 @@
+/* Faz a página rolar suavemente */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(255, 159, 159);
     font-family: sans-serif;
@@ -7,7 +12,7 @@ body {
 h1 {
     color: black;
     font-size: 60px;
-    font-family: 'Poppins', sans-serif; /* Nova fonte para o título principal! */
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Estilo para cada bloco de playlist */
@@ -29,4 +34,17 @@ h1 {
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-align: center;
+}
+
+/* Estilo do botão de voltar ao topo */
+.botao-topo {
+    display: inline-block;
+    margin: 30px 0;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
 }
